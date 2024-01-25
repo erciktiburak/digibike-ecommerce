@@ -1,5 +1,4 @@
-import React from 'react'
-'use client'
+'use client';
 
 const PopularBikeCarousel = ({bikes}) => {
   console.log(bikes)

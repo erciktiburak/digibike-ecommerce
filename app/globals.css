@@ -35,10 +35,10 @@
     @apply flex justify-center items-center w-[50px] h-[50px] text-2xl text-white;
   }
   .btn-accent {
-    @apply bg-accent hover:bg-accent transition-all;
+    @apply bg-accent hover:bg-accent-hover transition-all;
   }
   .btn-primary {
-    @apply bg-accent hover:bg-primary-hover transition-all;
+    @apply bg-primary hover:bg-primary-hover transition-all;
   }
   .btn-white {
     @apply bg-white hover:bg-white/90 text-primary transition-all;
