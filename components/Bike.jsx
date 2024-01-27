@@ -1,4 +1,5 @@
 'use client'
+import AddToCart from './AddToCart'
 
 import { urlFor } from '@/app/lib/sanity'
 import Image from 'next/image'
@@ -19,6 +20,11 @@ const Bike = ({bike}) => {
                     Popular
                 </div>
             )}
+            <Image src={urlFor(bike.images[0]).url()} width={240} height={147} alt={bike.name} />
+            </div>
+            {/* button group */}
+            <div>
+                <AddToCart />
             </div>
         </div>
     </div>  
